@@ -1,9 +1,5 @@
 import java.util.Scanner;
 public class EnumScannerSwitch {
-
-    /**
-     * @param args the command line arguments
-     */
     public enum Color { RED, BLUE, GREEN }
     public static void main(String[] args) {
       String bool;
@@ -22,5 +18,4 @@ public class EnumScannerSwitch {
           default:break;
       }
     }
-    
 }
